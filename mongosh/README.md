@@ -13,3 +13,7 @@ mongosh <connection string> -u username -p password
 
 load('./printBasicInfo.js');
 ```
+
+## Included helpers functions
+
+- Helper functions around node api
