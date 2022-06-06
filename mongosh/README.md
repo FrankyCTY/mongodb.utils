@@ -6,14 +6,12 @@ Notion Doc
 
 > https://www.notion.so/frankychan/Logs-MongoDB-197301aa60b34bd49e81470ba43e89ee#a76981b0be9b4af3b6d247c0d08d6c0e
 
-## How to load script in the shell
+## Use mongosh start up script
+
+- Put `.mongoshrc.js` in the root directory
+
+### Connect to database
 
 ```javascript
 mongosh <connection string> -u username -p password
-
-load('./printBasicInfo.js');
 ```
-
-## Included helpers functions
-
-- Helper functions around node api
