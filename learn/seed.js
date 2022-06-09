@@ -239,4 +239,34 @@ db.bios.insertMany([
     },
     contribs: ['Scala'],
   },
+  {
+    _id: 'test',
+    comments: [
+      {
+        author: 'joe',
+        score: 3.0,
+        comment: 'nice post',
+      },
+      {
+        author: 'mary',
+        score: 6.0,
+        comment: 'terrible post',
+      },
+    ],
+  },
+  {
+    _id: 'test2',
+    comments: [
+      {
+        author: 'joe',
+        score: 31.0,
+        comment: 'nice post',
+      },
+      {
+        author: 'mary',
+        score: 2.0,
+        comment: 'terrible post',
+      },
+    ],
+  },
 ]);
